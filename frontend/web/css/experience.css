@@ -1,0 +1,157 @@
+.like-image{
+
+    width: 45%;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .titles-experience{
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .experience-info{
+        text-align:center;
+    }
+
+    .text-justify{
+        text-align: center;
+
+    }
+
+    .text-price{
+        text-align: center;
+        margin: 25px 10px 10px;
+    }
+
+    #img-list{
+        float:right;
+    }
+
+    .like-image{
+        width: 25%;
+    }
+}
+
+
+.userMain a{
+    color: inherit;
+}
+
+.userMain .userBlock{
+    float: left;
+    width: 100%;
+    box-shadow: 0px 0px 23px -3px #ccc;
+    padding-bottom: 12px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    background:#fff;
+
+}
+
+.userMain .userBlock .backgrounImg{
+    float: left;
+    overflow: hidden;
+    height: 97px;
+}
+.userMain .userBlock .backgrounImg img{
+    width: auto;
+}
+.userMain .userBlock .userImg{
+    text-align: center;
+}
+.userMain .userBlock .userImg img{
+    width: 80px;
+    height: 80px;
+    margin-top: -39px;
+    border-radius: 100%;
+    border: 5px solid #fff;
+
+}
+.userMain .userBlock .userDescription{
+    text-align: center;
+}
+.userMain .userBlock .userDescription h4{
+    margin-bottom: 2px;
+    font-weight: 600;
+}
+
+.userMain .userBlock .userDescription p{
+    margin-bottom: 5px;
+}
+
+.userMain .userBlock .userDescription .show_price{
+    display: inline-flex;
+    margin-right: 5px;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.btn-ghost-bordered{
+
+    border-radius: 20px;
+    background-color:#E84D00;
+    color:white!important;
+    border:0;
+}
+
+.btn-ghost-bordered:hover{
+
+    border-radius: 20px;
+    background-color:#E84D00!important;
+    color:white!important;
+    border:0;
+}
+
+.userMain .userBlock .likes{
+    display: inline-flex;
+    margin-right: 10px;
+    border-right: 1px solid #ccc;
+    padding-right: 10px;
+
+}
+.userMain .userBlock .likes .number{
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 5px;
+    margin-top: -1px;
+}
+
+
+.show-experience{
+    background-color:#f6f6f6;
+    padding-top: 20px;
+    padding-bottom:20px;
+
+}
+
+.carousel-inner{
+    max-height: 500px !important;
+}
+
+.fa-clock{
+    color:#e84d00;
+}
+
+.fa-utensils{
+    color:#e84d00;
+}
+
+#map {
+    width:100%;height:200px;
+}
+#geocoder-container > div {
+    min-width:50%;
+    margin-left:25%;
+}
+
+#comment{
+ resize: vertical;
+}
+
+.img-circle{
+    width: 40px;
+    border-radius: 50%;
+}

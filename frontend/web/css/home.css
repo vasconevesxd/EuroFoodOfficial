@@ -1,0 +1,71 @@
+html,
+body {
+    font-family: circular, sans-serif;
+    height: 100%;
+}
+
+.first {
+    /*min-height: 100%;*/
+    padding-bottom: 20px;
+    background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url('../images/dinner-party.png') no-repeat;
+
+}
+
+
+.btn-exp{
+    background-color:#E84D00;
+    color:white;
+    border:0;
+}
+
+.btn-exp:hover{
+    background-color:#E84D00;
+    color:white;
+    border:0;
+}
+
+
+.btn-search{
+
+    width: 100%;
+    background-color:#E84D00;
+    color:white;
+    border:0;
+
+}
+
+.btn-search:hover{
+
+    width: 100%;
+    background-color:#E84D00;
+    color:white!important;
+    border:0;
+
+}
+
+.discover{
+    color:#6f767e;
+    padding-top:15px;
+}
+
+.discover-text{
+    color:#929599;
+}
+
+.discover-i{
+    color:#E84D00;
+}
+
+.jumbotron{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)),url('../images/tumb.jpeg');
+    margin-bottom:0px;
+    border-radius:0;
+}
+
+
+
+
+

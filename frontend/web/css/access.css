@@ -1,0 +1,56 @@
+html,
+body {
+    font-family: circular, sans-serif;
+    color:white;
+    height: 100%;
+    background-image: url('../images/dinner-party.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.col{
+    padding:50px;
+    background-color:rgba(0, 0, 0, 0.61);
+
+
+}
+
+#title{
+    margin:0;
+    color:#E84D00;
+    font-weight:bold;
+
+}
+
+#sub-title{
+    margin-bottom:50px;
+
+}
+
+#forgot-password{
+    color:#E84D00;
+    text-decoration: none;
+}
+
+.btn{
+
+    border-radius: 20px;
+    background-color:#E84D00;
+    color:white!important;
+    border:0;
+}
+
+.btn:hover{
+
+    border-radius: 20px;
+    background-color:#E84D00!important;
+    color:white!important;
+    border:0;
+}
+
+#link{
+    color:#E84D00;
+    text-decoration: none;
+}

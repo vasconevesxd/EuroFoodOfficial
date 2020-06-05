@@ -1,0 +1,15 @@
+suite_namespace: common\tests\unit
+actor: UnitTester
+bootstrap: false
+modules:
+    enabled:
+        - Yii2:
+            part: [orm, email, fixtures]
+            cleanup: false
+
+        - DB:
+            dsn: 'mysql:host=localhost;dbnam=eurofoodteste'
+            user: 'root'
+            password: ''
+
+        - Asserts
